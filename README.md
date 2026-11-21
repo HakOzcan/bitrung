@@ -1,5 +1,7 @@
 # Bitrung
 
+[![CI][badge]][ci]
+
 Turn your video files into adaptive HLS streams: pick the qualities,
 keep HDR, add movie info.
 
@@ -10,7 +12,7 @@ Each version you pick is one rung of it, hence the name.
 
 ## Roadmap
 
-- [ ] Project setup
+- [x] Project setup
 - [ ] Settings and encode plan
 - [ ] Running ffmpeg: progress, pause and resume
 - [ ] Job queue that survives restarts
@@ -22,3 +24,6 @@ Each version you pick is one rung of it, hence the name.
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+[badge]: https://github.com/HakOzcan/bitrung/actions/workflows/ci.yml/badge.svg
+[ci]: https://github.com/HakOzcan/bitrung/actions/workflows/ci.yml
