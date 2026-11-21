@@ -1,6 +1,7 @@
 # Bitrung
 
 [![CI][badge]][ci]
+
 Turn your video files into adaptive HLS streams: pick the qualities,
 keep HDR, add movie info.
 
